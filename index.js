@@ -33,6 +33,8 @@ function displayStats() {
       break;
   }
 
-  let text = `The indian city of ${city}  has a population of ${population} .language spoken is ${language} and literacy rate is ${literacyRate}`;
+  let text = `The indian city of ${city}  has a population of ${population} .
+  Language spoken is ${language} and 
+  literacy rate is ${literacyRate}`;
   document.getElementById("result").innerHTML = text;
 }

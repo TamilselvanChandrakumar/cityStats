@@ -17,11 +17,34 @@ body {
   border-radius: 10px;
   box-shadow: 10px 10px 6px rgb(68, 67, 67);
 }
-h2 {
+h1 {
   text-align: center;
   margin-top: 20px;
 }
 .buttoncontainer {
+  margin-top: 20px;
   display: flex;
   justify-content: center;
+}
+#inputdiv {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+#inputdiv select {
+  padding: 5px;
+  width: 150px;
+  border: 5px;
+  font-size: 1rem;
+  text-align: center;
+}
+button {
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+#result {
+  margin-top: 40px;
+  font-size: 1.5rem;
+  text-align: center;
 }
