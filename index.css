@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: linear-gradient(to bottom right, #ff3e9d, #0e1f40);
+  background-size: cover;
+  overflow: hidden;
+}
+#wrapper {
+  max-width: 600px;
+  height: 400px;
+  border: 1px solid black;
+  margin: 130px auto;
+  background-image: linear-gradient(to bottom right, #fdfcfb, #e2d1c3);
+  border-radius: 10px;
+  box-shadow: 10px 10px 6px rgb(68, 67, 67);
+}
+h2 {
+  text-align: center;
+  margin-top: 20px;
+}
+.buttoncontainer {
+  display: flex;
+  justify-content: center;
+}
