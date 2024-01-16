@@ -38,10 +38,16 @@ h1 {
   font-size: 1rem;
   text-align: center;
 }
+#input option {
+  border-radius: 5px;
+}
 button {
   padding: 5px;
   border-radius: 5px;
   font-size: 1rem;
+}
+button:hover {
+  border-color: rgb(216, 20, 85);
 }
 #result {
   margin-top: 40px;
